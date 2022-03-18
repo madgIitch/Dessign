@@ -1,0 +1,123 @@
+.cta-checkout {
+    padding: 3px 5px;
+    border: 1px solid #00ff00;
+    color: black;
+    background-color: #00ff00;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: monospace;
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+
+
+/* FRONT PAGE SINGLE PRODUCTS */
+
+.bc-product-card--single .bc-product__gallery{
+    width: 100% !important;
+    max-width: 100% !important;
+    position: inherit !important;
+}
+.bc-product-card--single .bc-product__meta {
+    width: 100% !important;
+    padding-top: 10px !important;
+}
+.bc-product-card--single .bc-product__actions {
+    width: 100% !important;
+}
+
+
+.bc-product-card--single {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.bc-product__title-link {
+    color: #000 !important;
+    font-size: 13px !important;
+    text-decoration: underline !important;
+    pointer-events: none !important;
+}
+.bc-product-card--single .bc-product__pricing {
+    margin-bottom: 10px !important;
+}
+.bc-product__description {
+    margin-bottom: 10px !important;
+    line-height: 15px !important;
+}
+.column-3 .prod-separator{
+    border-top: 1px solid #808080;
+}
+
+/**/
+input.bc-product-form__quantity-input[type=number] {
+    border-color: #000 !important;
+    font-size: 13px;
+    font-family: monospace;
+}
+button.bc-btn.bc-btn--form-submit.bc-btn--add_to_cart {
+    padding: 1px 5px !important;
+    border: 1px solid red !important;
+    color: red !important;
+    border-radius: 16px !important;
+    background-color: transparent !important;
+    text-transform: capitalize !important;
+    font-weight: inherit !important;
+    font-family: monospace !important;
+    font-size: 13px !important;
+    outline: none !important;
+    width: auto !important;
+}
+button.bc-btn.bc-btn--form-submit.bc-btn--add_to_cart:hover {
+    color: #fff !important;
+    background-color: red !important;
+}
+
+.bc-alert--success {
+    background-color: red !important;
+    border: 1px solid red !important;
+    border-radius: 16px !important;
+    padding: 3px 5px !important;
+    font-size: 13px !important;
+    width: initial !important;
+    display: inline-block !important;
+}
+
+
+
+
+
+
+
+
+
+.bc-product-gallery__thumb-slide img{
+    cursor: pointer;
+}
+.bc-product-gallery__thumb-slide:nth-child(4) {
+    margin-right: 0 !important;
+}
+.bc-product-gallery__thumb-slide:nth-child(8) {
+    margin-right: 0 !important;
+}
+.bc-product-gallery__thumb-slide:nth-child(16) {
+    margin-right: 0 !important;
+}
+.bc-product-gallery__thumb-slide {
+    width: calc((100% - 30px) / 4) !important;
+}
+
+
+
+
+
+
+/* CHECKOUT */
+.page-id-2312 .form-input {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+}
