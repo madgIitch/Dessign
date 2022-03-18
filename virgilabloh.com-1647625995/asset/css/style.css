@@ -1,0 +1,155 @@
+/*
+Theme: virgilabloh
+*/
+
+:root {
+    --size-1: 1vw;
+}
+html{
+    overflow: auto;
+}
+body {
+    font-family: sans-serif;
+    font-size: var(--size-1);
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+body, select, input, textarea {
+    color: #000;
+}
+
+a {color: #000; text-decoration: none;}
+a:hover {color: #000;}
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: #000; color: #fff; text-shadow: none;}
+::selection {background: #000; color: #fff; text-shadow: none;}
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #000; color: #000;}
+
+ins {background-color: #fff; color: #000; text-decoration: none;}
+mark {background-color: #fff; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+.clearafter:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-right { text-align: right; }
+
+
+
+/*
+-------------------------------------------------------------------------------*/
+
+.wrapper-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.wrapper-logos .single-logo {
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.grayed {
+    opacity: 0.3;
+}
+
+
+    
+/*
+-------------------------------------------------------------------------------*/
+
+
+
+.col-md-1{
+    width: 8.33%;
+    float: left;
+}
+.col-md-2{
+    width: 16.66%;
+    float: left;
+}
+.col-md-3{
+    width: 25%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+.col-md-5{
+    width: 41.66%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-7{
+    width: 58.33%;
+    float: left;
+}
+.col-md-8{
+    width: 66.66%;
+    float: left;
+}
+.col-md-9{
+    width: 75%;
+    float: left;
+}
+.col-md-10{
+    width: 83.33%;
+    float: left;
+}
+.col-md-11{
+    width: 91.66%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+
+.mobile{display: none;}
+
+
+
+
+@media screen and (max-width: 960px) {
+    
+    .desktop{display: none;}
+	.mobile{display: block;}
+    
+    
+    .wrapper-logos .single-logo {
+        width: 50%;
+    }
+
+
+
+    /******************************/
+    .col-sm-50{
+        width: 50%;
+        float: left;
+    }
+    .col-sm-100{
+        width: 100%;
+        float: left;
+    }
+        
+}
